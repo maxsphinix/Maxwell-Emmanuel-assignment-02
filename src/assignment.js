@@ -15,8 +15,8 @@ const assignment = {};
  */
 function sumOfNumbers() {
     // return arrayOfNumbers.length;
-    let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    let sum = arr.reduce((a,b) => {return a + b}, 0)
+    let arrayOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    let sum = arrayOfNumbers.reduce((a,b) => {return a + b}, 0)
     console.log(sum)
 }
 sumOfNumbers()
@@ -34,7 +34,7 @@ assignment.sumOfNumbers = sumOfNumbers;
  function countEvenNumbers(arrayOfNumbers) {
     let count =0
     for (let i = 0; i < arrayOfNumbers.length; i++) {
-        if (arr[i] % 2 === 0){
+        if (arrayOfNumbers[i] % 2 === 0){
             count++
         }
     }
